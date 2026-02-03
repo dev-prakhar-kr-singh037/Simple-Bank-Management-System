@@ -1,4 +1,3 @@
-#Testing new codes/trying new things
 import pandas as pd
 import mysql.connector as sqltor
 mycon=sqltor.connect(host="localhost",user="root",passwd='0319',database='bnksystm')
@@ -8,7 +7,7 @@ if mycon.is_connected():
 else:
     print('MySQL Connection Problem')
 print("************************************************************")
-print("============== WELCOME TO GOLDEN HORIZON BANK ==============")
+print("============== WELCOME TO VENTURE CAPITAL BANK =============")
 print("************************************************************")
 print("==========     (1). Open New  Account            ===========")
 print("==========     (2). Withdraw a Money             ===========")
@@ -111,4 +110,5 @@ elif chc==5:
 else:
     print('enter a valid choice')
     
+
     
